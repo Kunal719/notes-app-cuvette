@@ -74,6 +74,7 @@
     color: black;
     resize: none;
     border-radius: 8px;
+    text-wrap: wrap;
 }
 
 .send-icon {
@@ -122,6 +123,7 @@
     margin-bottom: 10px !important;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    word-wrap: break-word;
 }
 
 .note-item p {
