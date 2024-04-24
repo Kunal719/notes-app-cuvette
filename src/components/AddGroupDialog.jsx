@@ -57,7 +57,7 @@ const AddGroupDialog = ({ onClose, onAddGroup }) => {
                     </div>
                 </div>
                 <div className="button-container">
-                    <button onClick={handleAddGroup} className="add-button">Add</button>
+                    <button onClick={handleAddGroup} className="add-button">Create</button>
                 </div>
             </div>
         </div>
