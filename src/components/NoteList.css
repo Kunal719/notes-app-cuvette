@@ -9,7 +9,7 @@
     overflow-x: hidden;
     position: relative;
     /* justify-content: space-between; */
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
 @media (max-width: 1024px) {
@@ -104,11 +104,12 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    align-items: flex-end;
+    align-items: flex-start;
     justify-content: center;
     overflow-y: scroll;
     margin: 15px 0;
     flex-flow: wrap;
+    flex-grow: 1;
 }
 
 .note-item {
@@ -118,7 +119,7 @@
     height: max-content;
     background-color: #fff;
     padding: 5px 15px;
-    margin-bottom: 10px;
+    margin-bottom: 10px !important;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
